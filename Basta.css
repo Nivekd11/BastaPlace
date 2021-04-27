@@ -152,6 +152,16 @@ h3{
    grid-column: 1 / 4;
   
   }
+
+  .participante-card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    font-size:2rem ;
+    font-family: 'Bungee Inline', Courier, monospace;
+    text-align: center;
+
+  }
 }
   .contenedor-campos-CrearSala{
     display:grid;
