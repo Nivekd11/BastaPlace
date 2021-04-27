@@ -25,65 +25,476 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Basta place</title>
+    <title>Basta Game Calificar</title>
 </head>
 
 <body class="vector1">
     <header>
-        <h1 class ="titulo">Basta<span class="spanSub"> Place</span></h1>
+        <h1 class ="titulo">Basta<span class="spanSub"> Game</span></h1>
+        <h2 >Franco califica a tus compañeros</h2>
     </header>
-    
-    <section class="seccionforms">
-        <h2 class="subtitulo">Califica a tus compañeros</h2>
-    </section>
-
     <div class="container">
-        <table class="table">
+      <div class="row align-self-center">
+          <div class="col-3">
+            <h3 class="calif">Letra B</h3>
+          </div>
+      </div>
+    </div>
+    <div class="sticky-top d-grid gap-2 d-md-flex justify-content-md-end">
+      <h3 style="width: 23%; font-size: 130%; color:darkslateblue;">Tiempo restante 03:00</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+          <table class="table" style="color: rgb(29, 64, 99);">
             <thead>
               <tr class="table-primary">
-                <th scope="col">#</th>
+                <th scope="col" >#</th>
                 <th scope="col">Persona</th>
                 <th scope="col">Tema</th>
-                <th scope="col">Puntuaci&oacute;n</th>
+                <th scope="col">Respuesta</th>
+                <th scope="col">Puntiación</th>
               </tr>
             </thead>
             <tbody>
               <tr class="table-secondary">
                 <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td >Fernando</td>
+                <td >Animal</td>
+                <td >Burro</td>
                 <td>
-                    <div class="form-check">
-                        <input class="form-check-input big-checkbox" type="checkbox" value="" id="defaultCheck1 ">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Buena
-                          </label>
-                      </div>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
                 </td>
               </tr>
               <tr class="table-success">
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td >Kevin</td>
+                <td >Animal</td>
+                <td >Búho</td>
+                <td>
+                  <div >
+                    <select class="form-select form-select-sm col-sm-8 ">
+                      <option selected>Selecciona una calificación</option>
+                      <option value="1">0 puntos</option>
+                      <option value="2">50 puntos</option>
+                      <option value="3">100 puntos</option>
+                    </select>
+                  </div>
+                </td>
               </tr>
               <tr class="table-danger">
                 <th scope="row">3</th>
-                <td>Larry the Bird</td>
-                <td>@twitter</td>
-                <td>Hola</td>
+                <td>Omar</td>
+                <td>Animal</td>
+                <td>Buitre</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">4</th>
+                <td>Maria</td>
+                <td>Animal</td>
+                <td>Bisonte</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-light">
+                <th scope="row">5</th>
+                <td>Franco</td>
+                <td>Animal</td>
+                <td>Burro</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
               </tr>
             </tbody>
           </table>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#7bc62d" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M11 17a2.5 2.5 0 0 0 2 0" />
-        <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
-        <line x1="8" y1="11" x2="10" y2="13" />
-        <line x1="16" y1="11" x2="14" y2="13" />
-      </svg>
-</body>
+        </div>
+        <br>
 
+        <div class="row">
+          <table class="table" style="color: rgb(29, 64, 99);">
+            <thead>
+              <tr class="table-primary">
+                <th scope="col" >#</th>
+                <th scope="col">Persona</th>
+                <th scope="col">Tema</th>
+                <th scope="col">Respuesta</th>
+                <th scope="col">Puntiación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-secondary">
+                <th scope="row">1</th>
+                <td >Fernando</td>
+                <td >Nombre</td>
+                <td >Bruno</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">2</th>
+                <td >Kevin</td>
+                <td >Nombre</td>
+                <td >Baltasar</td>
+                <td>
+                  <div >
+                    <select class="form-select form-select-sm col-sm-8 ">
+                      <option selected>Selecciona una calificación</option>
+                      <option value="1">0 puntos</option>
+                      <option value="2">50 puntos</option>
+                      <option value="3">100 puntos</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <th scope="row">3</th>
+                <td>Omar</td>
+                <td>Nombre</td>
+                <td>Boris</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">4</th>
+                <td>Maria</td>
+                <td>Nombre</td>
+                <td>Braulio</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-light">
+                <th scope="row">5</th>
+                <td>Franco</td>
+                <td>Nombre</td>
+                <td>Belinda</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <table class="table" style="color: rgb(29, 64, 99);">
+            <thead>
+              <tr class="table-primary">
+                <th scope="col" >#</th>
+                <th scope="col">Persona</th>
+                <th scope="col">Tema</th>
+                <th scope="col">Respuesta</th>
+                <th scope="col">Puntiación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-secondary">
+                <th scope="row">1</th>
+                <td >Fernando</td>
+                <td >Flor o fruto</td>
+                <td >Banana</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">2</th>
+                <td >Kevin</td>
+                <td >Flor o fruto</td>
+                <td >Banana</td>
+                <td>
+                  <div >
+                    <select class="form-select form-select-sm col-sm-8 ">
+                      <option selected>Selecciona una calificación</option>
+                      <option value="1">0 puntos</option>
+                      <option value="2">50 puntos</option>
+                      <option value="3">100 puntos</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <th scope="row">3</th>
+                <td>Omar</td>
+                <td>Flor o fruto</td>
+                <td>Baya</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">4</th>
+                <td>Maria</td>
+                <td>Flor o fruto</td>
+                <td>Betabel</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-light">
+                <th scope="row">5</th>
+                <td>Franco</td>
+                <td>Flor o fruto</td>
+                <td>Boton</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+
+        <div class="row">
+          <table class="table" style="color: rgb(29, 64, 99);">
+            <thead>
+              <tr class="table-primary">
+                <th scope="col" >#</th>
+                <th scope="col">Persona</th>
+                <th scope="col">Tema</th>
+                <th scope="col">Respuesta</th>
+                <th scope="col">Puntiación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-secondary">
+                <th scope="row">1</th>
+                <td >Fernando</td>
+                <td >Película</td>
+                <td >Bajo amenaza</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">2</th>
+                <td >Kevin</td>
+                <td >Película</td>
+                <td >Ben-Hur</td>
+                <td>
+                  <div >
+                    <select class="form-select form-select-sm col-sm-8 ">
+                      <option selected>Selecciona una calificación</option>
+                      <option value="1">0 puntos</option>
+                      <option value="2">50 puntos</option>
+                      <option value="3">100 puntos</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <th scope="row">3</th>
+                <td>Omar</td>
+                <td>Película</td>
+                <td>Bee movie</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">4</th>
+                <td>Maria</td>
+                <td>Película</td>
+                <td>Battleship</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-light">
+                <th scope="row">5</th>
+                <td>Franco</td>
+                <td>Película</td>
+                <td>Batman: La Lego</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+
+        <div class="row">
+          <table class="table" style="color: rgb(29, 64, 99);">
+            <thead>
+              <tr class="table-primary">
+                <th scope="col" >#</th>
+                <th scope="col">Persona</th>
+                <th scope="col">Tema</th>
+                <th scope="col">Respuesta</th>
+                <th scope="col">Puntiación</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-secondary">
+                <th scope="row">1</th>
+                <td >Fernando</td>
+                <td >País</td>
+                <td >Brasil</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">2</th>
+                <td >Kevin</td>
+                <td >País</td>
+                <td >Brasil</td>
+                <td>
+                  <div >
+                    <select class="form-select form-select-sm col-sm-8 ">
+                      <option selected>Selecciona una calificación</option>
+                      <option value="1">0 puntos</option>
+                      <option value="2">50 puntos</option>
+                      <option value="3">100 puntos</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+              <tr class="table-danger">
+                <th scope="row">3</th>
+                <td>Omar</td>
+                <td>País</td>
+                <td>Bahamas</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">4</th>
+                <td>Maria</td>
+                <td>País</td>
+                <td>Belice</td>
+                <td>
+                  <select class="form-select form-select-sm col-sm ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-light">
+                <th scope="row">5</th>
+                <td>Franco</td>
+                <td>País</td>
+                <td></td>
+                <td>
+                  <select class="form-select form-select-sm col-sm-8 ">
+                    <option selected>Selecciona una calificación</option>
+                    <option value="1">0 puntos</option>
+                    <option value="2">50 puntos</option>
+                    <option value="3">100 puntos</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+      <div class="entradas d-grid gap-2 d-md-flex justify-content-md-end">
+        <a href="ganadores.html" style="background-color: rgb(241, 240, 170); font-family: 'Bungee Inline';" class="btn btn-lg" role="button" data-bs-toggle="button">Terminar de calificar</a>
+      </div>
+    </div>
+    <br><br>
+</body>
 </html>
